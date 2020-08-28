@@ -69,9 +69,8 @@ api.fetchProfiles(tokens[0], 40.785091, -73.968285) # myType='false', online='fa
 
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+If you want to contribute please go to:
+<https://github.com/Slenderman00/Grindr-Web-Access/tree/experimental>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
