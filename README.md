@@ -14,12 +14,12 @@ pip3 install git+https://github.com/Slenderman00/Pip-Grindr-Web-Access.git
 ## Usage
 
 ```python
-# import the GrindrWebAccsess
-import GrindrWebAccsess
+# import the GrindrWebAccsess.api framework
+import GrindrWebAccsess.api as api
 
 #GrindrWebAccsess full login
-tokens = GrindrWebAccsess.fullLogin()
-print(GrindrWebAccsess.getProfileId(tokens[0]))
+tokens = api.fullLogin()
+print(api.getProfileId(tokens[0]))
 
 #on message
 def onmessage(message, profileid, _type):
@@ -30,7 +30,7 @@ def onmessage(message, profileid, _type):
     print(_type + " " + message)
 
 #open socket
-socket = GrindrWebAccsess.messageSocket(tokens, onmessage)
+socket = api.messageSocket(tokens, onmessage)
 socket.start()
 ```
 
@@ -38,7 +38,7 @@ socket.start()
 ```python
 
 #fetch your own userid
-GrindrWebAccsess.getProfileId(tokens[0])
+api.getProfileId(tokens[0])
 
 #send message
 socket.message("<Userid>", "<Message body>")
@@ -52,7 +52,7 @@ socket.tap("<Userid>", "<tapType>")
 
 #fetch array of all users
 #                  authtoken    lat         long        parameters
-GrindrWebAccsess.fetchProfiles(tokens[0], 40.785091, -73.968285) # myType='false', online='false', faceOnly='false', photoOnly='false', notRecentlyChatted='false'
+api.fetchProfiles(tokens[0], 40.785091, -73.968285) # myType='false', online='false', faceOnly='false', photoOnly='false', notRecentlyChatted='false'
 
 ```
 

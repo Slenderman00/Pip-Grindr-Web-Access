@@ -1,1 +1,1 @@
-from .api import api as GrindrWebAccess
+from . import api

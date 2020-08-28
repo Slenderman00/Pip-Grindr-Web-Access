@@ -1,5 +1,7 @@
 #Simple script to explore how the new Grindr v4 web API works
 
+from . import terminalqr
+
 import pyqrcode
 import pygeohash
 import requests
@@ -13,12 +15,6 @@ import threading
 import xmltodict
 import random
 from websocket import create_connection
-
-
-def drawqr(data):
-    text = pyqrcode.create(data)
-    print(text.text().replace("0", "██").replace("1", "  "))
-
 
 # Fetching web client id
 def fetchWebClientId():
@@ -46,7 +42,7 @@ def authtoken(id):
 def generateQr(id):
     print("Generating QR code")
     data = "grindrwebchat_" + id
-    drawqr(data)
+    terminalqr.drawqr(data)
     print("url: https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=grindrwebchat_" + id)
 
 
