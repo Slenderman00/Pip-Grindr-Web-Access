@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='GrindrWebAccsess',
+    name='GrindrWebAccess',
     version='0.0.1',
     description='A framework for using the github v4 api in python',
     url='git@github.com:slenderman00/Pip-Grindr-Web-Access.git',

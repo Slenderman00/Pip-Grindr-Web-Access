@@ -1,1 +1,1 @@
-import api as GrindrWebAccsess
+import api as GrindrWebAccess
