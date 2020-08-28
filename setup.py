@@ -9,7 +9,7 @@ setup(
     author_email='joarheimonen@live.no',
     license='mit',
     packages=['GrindrWebAccess'],
-    zip_safe=False
+    zip_safe=False,
     install_requires=[
         'requests==2.23.0',
         'asyncio==3.4.3',
