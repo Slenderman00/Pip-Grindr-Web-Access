@@ -10,4 +10,12 @@ setup(
     license='mit',
     packages=['GrindrWebAccess'],
     zip_safe=False
+    install_requires=[
+        'requests==2.23.0',
+        'asyncio==3.4.3',
+        'pyqrcode==1.2.1',
+        'websocket_client==0.57.0',
+        'xmltodict==0.12.0',
+        'pygeohash==1.2.0'
+    ]
 )
