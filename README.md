@@ -15,7 +15,7 @@ pip3 install git+ssh://git@github.com/slenderman00/Pip-Grindr-Web-Accsess.git
 
 ```python
 # import the api
-import api
+import GrindrWebAccsess
 
 #api full login
 tokens = api.fullLogin()
