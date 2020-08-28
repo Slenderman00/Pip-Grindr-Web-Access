@@ -8,6 +8,6 @@ setup(
     author='Joar Heimonen',
     author_email='joarheimonen@live.no',
     license='mit',
-    packages=['Grindr-Web-Access'],
+    packages=['GrindrWebAccess'],
     zip_safe=False
 )
