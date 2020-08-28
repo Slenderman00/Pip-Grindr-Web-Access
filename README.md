@@ -8,7 +8,7 @@ Just scan the qrcode using your grindr app
 
 ## Installation
 ```
-pip3 install git+ssh://git@github.com/slenderman00/Pip-Grindr-Web-Accsess.git
+pip3 install https://github.com/Slenderman00/Pip-Grindr-Web-Accsess.git
 ```
 
 ## Usage

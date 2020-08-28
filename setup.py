@@ -8,6 +8,6 @@ setup(
     author='Raphael Schubert',
     author_email='joarheimonen@live.no',
     license='mit',
-    packages=['GrindrWebAccsess'],
+    packages=['Grindr-Web-Accsess'],
     zip_safe=False
 )
