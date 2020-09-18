@@ -8,14 +8,14 @@ Just scan the qrcode using your grindr app
 
 ## Installation
 ```
-pip3 install git+https://github.com/Slenderman00/Pip-Grindr-Web-Access.git
+pip3 install "git+https://github.com/Slenderman00/Pip-Grindr-Web-Access.git"
 ```
 
 ## Usage
 
 ```python
 # import the GrindrWebAccsess.api framework
-import GrindrWebAccsess.api as api
+import GrindrWebAccess.api as api
 
 #GrindrWebAccsess full login
 tokens = api.fullLogin()
